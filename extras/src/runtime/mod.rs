@@ -30,6 +30,7 @@ pub use crossterm::{
     mouse_event_from_crossterm,
 };
 pub use keymap::MoveBindings;
+pub use palette::{PaletteBehavior, PaletteConfig, PaletteSelection};
 pub use tab_bar::{TabBar, TabBarItem};
 pub use types::{AnimationConfig, BorderConfig, InputMode, RuntimeError, SplitBehavior};
 pub use widget::{HypertileView, ModeIndicator};
